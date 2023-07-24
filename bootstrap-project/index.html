@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -16,67 +17,65 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Scripts em JS -->
+    <!-- Loader - Progress Bar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js"></script>
+
+    <!-- Scripts em JS do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
 
+    <!-- Parallax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <!-- Scripts em JS -->
     <script src="scripts.js" defer></script>
 
     <!-- Ícones - Font Awesome -->
     <script src="https://kit.fontawesome.com/78d136da5b.js" crossorigin="anonymous"></script>
 
-    <!-- Loader - Progress Bar -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js"></script>
-
+    
 </head>
 
 <body>
-   
-    <!------Header -->
+    
+    <!-- Header -->
 
+    <!-- Slideshow -->
 
-
-    <!----slideshow-->
-
-
-
-
-
-    <!-----sobre o mvp studio-->
-
+    <!-- Sobre o MVP Studio -->
     <main>
-        <div  id="about-area" class="container-fluid">
+        <div id="about-area" class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="main-title"> Sobre o MVP Studio</h2>
+                    <h2 class="main-title">
+                        Sobre o MVP Studio
+                    </h2>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-fluid" src="img/agencia.jpg" alt="MVP STUDIO">
-
+                    <img class="img-fluid" src="img/agencia.jpg" alt="MVP Studio">
                 </div>
                 <div class="col-md-6">
-                    <h4 id="about-title">UMA AGENCIA QUE PENSA NO FUTURO</h4>
-                    <p>Lorem ipsum dolor sit amet </p>
-                    <p>Lorem, ipsum dolor sit amet </p>
-                    <p>Lorem ipsum dolor sit amet </p>
-                    <p>Confira</p>
+                    <h4 class="title-uppercase">Lorem ipsum dolor sit amet</h4>
+                    <p>Consectetur adipisicing elit.</p>
+                    <p>Molestias aliquid sint dolores repellendus voluptate.</p>
+                    <p>Id labore nobis minima, eveniet inventore iste nam.</p>
+                    <p>Confira:</p>
                     <ul id="about-list">
-                        <li><i class="fas fa-check"></i> ipsum dolor sit, amet consectetur adipisicing elit. Repellat modi, </li>
-                        <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet consectetur </li>
-                        <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet consectetur </li>
-                        <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet consectetur </li>
-                        <li><i class="fas fa-check"></i>Lorem ipsum dolor sit, amet consectetur </li>
+                        <li><i class="fas fa-check"></i>Lorem ipsum dolor sit
+                        </li>
+                        <li><i class="fas fa-check"></i>Amet consectetur adipisicing elit</li>
+                        <li><i class="fas fa-check"></i>Necessitatibus, doloribus voluptate ad placeat</li>
+                        <li><i class="fas fa-check"></i>Non, asperiores incidunt, perferendis fugit animi</li>
+                        <li><i class="fas fa-check"></i>Reiciendis consectetur odio necessitatibus</li>
                     </ul>
-                    
                 </div>
             </div>
-            
-        </div>
-
+        </div>        
     </main>
 
-<!------serviços---------->
+    <!-- Serviços -->
 
-<div id="service-area" class="container-fluid">
+    <div id="service-area" class="container-fluid">
     <div class="row">
         <div class="col-12">
             <h2 class="main-title">
@@ -85,33 +84,33 @@
         </div>
         <div class="col-md-4 service-box">
             <i class="fa-solid fa-mobile-screen-button"></i>
-            <h3>app</h3>
-            <p>Lorem ipsum dolor sit amet </p>
+            <h3>Aplicativo</h3>
+            <p>Leve sua marca diretamente para os dispositivos móveis dos seus clientes, proporcionando uma experiência inovadora e conveniente. </p>
         </div>
         <div class="col-md-4 service-box">
-            <i class="fa-solid fa-cash-register"></i>
-            <h3>registro</h3>
-            <p>Lorem ipsum dolor </p>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <h3>Comércio eletrônico</h3>
+            <p>Expanda seus horizontes e conquiste novos mercados com uma loja online completa, atraindo clientes de todo o mundo.</p>
         </div>
         <div class="col-md-4 service-box">
-            <i class="fa-solid fa-pencil"></i>
-            <h3>pincel</h3>
-            <p>Lorem ipsum dolor sit amet </p>
+            <i class="fa-solid fa-user-tie"></i>
+            <h3>Consultoria de TI</h3>
+            <p>Tome decisões estratégicas fundamentadas com a ajuda de nossos especialistas, maximizando o potencial da sua infraestrutura tecnológica. </p>
         </div>
         <div class="col-md-4 service-box">
-            <i class="fa-solid fa-server"></i>
-            <h3>server</h3>
-            <p>Lorem ipsum dolor, sit amet </p>
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>UX/UI design</h3>
+            <p> Encante seus usuários com design e interfaces intuitivas e atraentes, oferecendo a melhor experiência de usuário possível.</p>
         </div>
         <div class="col-md-4 service-box">
             <i class="fa-solid fa-laptop-code"></i>
-            <h3>laptop</h3>
-            <p>Lorem, ipsum dolor </p>
+            <h3> suporte de sistemas</h3>
+            <p> Mantenha sua infraestrutura tecnológica atualizada, segura e funcionando perfeitamente, para que você possa focar no crescimento do seu negócio. </p>
         </div>
         <div class="col-md-4 service-box">
-            <i class="fa-brands fa-google"></i>
-            <h3>google</h3>
-            <p>Lorem ipsum dolor sit amet </p>
+            <i class="fa-solid fa-vr-cardboard"></i>
+            <h3>Ambientes de Realidade Virtual</h3>
+            <p>Transporte sua equipe para uma realidade virtual imersiva, proporcionando experiências únicas e envolventes. </p>
         </div>
 
     </div>
@@ -119,9 +118,91 @@
 
 
 </div>
+    <!-- Dados -->
+    <div id="data-area" class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-3 col-xs-6 circle-box">
+                <div id="circleA"></div>
+                <p>Clientes felizes</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+                <div id="circleB"></div>
+                <p>Apps desenvolvidos</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+                <div id="circleC"></div>
+                <p>Desenvolvedores</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+                <div id="circleD"></div>
+                <p>Linhas de códigos escritas</p>
+            </div>
+        </div>
+    </div>
 
-<!--------heider-->
+    <!-- Time -->
 
+    <div id="team-area" class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-12">
+                <h2 class="main-title">Nosso Time</h2>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card text-center">
+                    <img src="./img/profile1.jpg" class="card-img-top" alt="Nome de um colaborador">
+                    <div class="card-body">
+                      <h5 class="card-title">Jorge Pinho</h5>
+                      <p class="card-text">Software Developper</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card text-center">
+                    <img src="./img/profile2.jpg" class="card-img-top" alt="Nome de um colaborador">
+                    <div class="card-body">
+                      <h5 class="card-title">Ana Beatriz</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card text-center">
+                    <img src="./img/profile3.jpg" class="card-img-top" alt="Nome de um colaborador">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card text-center">
+                    <img src="./img/profile4.jpg" class="card-img-top" alt="Nome de um colaborador">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trabalhe conosco -->
+
+    <div id="apply-area" class="container-fluid">
+        <div class="row">
+            <div id="apply-img" class="col-md-6"></div>
+            <div id="apply-content" class="col-md-6 text-center">
+                <h4 id="text-h4" class="title-uppercase">Gosta de desafios?</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a  href="" id="apply-buttom" class="btn btn-primary text-uppercase" role="button">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
 
 </body>
 

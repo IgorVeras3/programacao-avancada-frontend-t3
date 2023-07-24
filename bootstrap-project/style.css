@@ -1,53 +1,58 @@
-/*gerais */
+/* Geral */
 
 body {
   font-family: 'Roboto', sans-serif;
-
 }
 
-.container-fluid{
+.container-fluid {
   padding: 70px 0;
-
 }
 
-.row{
+.row {
   margin: 0;
-
 }
 
-p, li{
-  color: #1b2040;
+p, li {
+  color: #0f1026;
   font-size: 14px;
 }
 
-/*sobre */
+/* Sobre */
 
-#about-area{
-  background-color:#f2f2f2;
+#about-area {
+  background-color: #f2f2f2;
 }
 
-.main-title{
-  margin-bottom: 65px;
+.main-title {
+  margin: 0 0 65px 0;
   text-align: center;
   font-size: 40px;
-  color: #1b2040;
-
+  color: #0f1026;
 }
 
-#about-title{
-  color: #1b2040;
+.main-title:after{
+  content: '';
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #00447c;
+  margin: 10px auto;
+}
+
+.title-uppercase {
+  color: #0f1026;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 17px;
 }
 
-#about-list{
+#about-list {
   list-style: none;
   padding: 0;
 }
 
 #about-list i {
-  color: #4993f2;
+  color: #4973f2;
   margin-right: 15px;
 }
 
@@ -55,16 +60,16 @@ p, li{
   line-height: 30px;
 }
 
-/*serviço */
+/* Serviços */
 
-.service-box{
+.service-box {
   text-align: center;
   margin-bottom: 50px;
 }
 
 .service-box i {
   font-size: 36px;
-  color: #1b2040;
+  color: #0f1026;
   margin-bottom: 20px;
 }
 
@@ -74,9 +79,72 @@ p, li{
 }
 
 .service-box:hover > i, .service-box:hover > h3 {
-  color: #4993f2;
+  color: #4973f2;
 }
 
 .service-box i, .service-box h3 {
-  transition: 2s;
+  transition: 1s;
+}
+
+/* Dados */
+
+#data-area p {
+  font-size: 15;
+  color: #f2f2f2;
+}
+
+.circle-box {
+  position: relative;
+}
+
+/* Time */
+
+#team-area{
+  margin-bottom: 50px;
+}
+
+/* Trabalhe conosco */
+
+#apply-area{
+  height: 500px;
+}
+
+#apply-area .row, #apply-img, #apply-content{
+  height: 100%;
+}
+
+#apply-img{
+  background-image: url('./img/empresa.jpg');
+  background-size: cover;
+}
+
+#apply-area .title-uppercase{
+  margin: 15px;
+}
+
+#apply-content{
+  padding: 0 5% 0 5%;
+}
+
+#apply-content h4, #apply-content p{
+  color: #eaeaea;
+}
+
+#apply-content h4#text-h4{
+  margin-top: 10%;
+}
+
+#apply-buttom{
+  border-radius: 50px;
+  background-color: #0c0c0c;
+  border: solid #eaeaea 2px;
+}
+
+#apply-buttom:hover{
+  background-color: #0b7b9e;
+  transform: scale(1.15);
+}
+
+#apply-buttom{
+  transition: 1s;
 }
